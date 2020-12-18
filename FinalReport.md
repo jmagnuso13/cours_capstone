@@ -23,7 +23,7 @@ The csv file can be retrieved in the csv folder to review the data.
 
 #### Foursquare Places API
 The Foursquare Places API will be used to identify Outdoor opportunities leveraging the 'Outdoors & Recreation' Category ID.  The output below shows some samples of how the foursquare app could be utilized.
-```json
+``json
 'meta': {'code': 200, 'requestId': '5fd44a674fe037099c612345'},
  'response': {'venues': [{'id': '51e30b94498e535deccfdea5',
     'name': 'Mt. Sneffels Trail Head',
@@ -46,7 +46,7 @@ The Foursquare Places API will be used to identify Outdoor opportunities leverag
       'primary': True}],
     'referralId': 'v-1607748199',
     'hasPerk': False},
-   {'id': '55ef161d49
+   {'id': '55ef161d49``
 
 
 Note that while I will make calls leveraging the 'Outdoors & Recreation' Category ID, this includes many indoor venue types that I am not interested in.  After making the api call, I will remove the following:
