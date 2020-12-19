@@ -73,14 +73,22 @@ I then merged this data with the Zillow Home Value Index (using the September '2
 ### Results
 This approach yielded a few clusters worth investigating deeper in identifying potential candidate cities.
 
-Cluster 2 would be my primary Target Cluster, as this cluster contains cities most associated with Outdoor Recreational opportunities in Colorado. The Ski resort towns like Breckenridge, Vail, Aspen, and Telluride, in addition to adjacent towns like Ouray or Montrose. The high variation in house forecast values shows that cities in the lower end of the housing value distribution may are worth targetting for additional research for vacation rental investment homes.
+Cluster 4 would be my primary Target Cluster, as this cluster contains cities most associated with Outdoor Recreational opportunities in Colorado. The Ski resort towns like Breckenridge, Vail, Aspen, and Telluride, in addition to adjacent towns like Ouray or Montrose. The high variation in house forecast values shows that cities in the lower end of the housing value distribution may are worth targetting for additional research for vacation rental investment homes.
 
-__Cluster 2 Map__
+__Cluster 4 Map__
 ![title](Images/cluster2map.png)
 
-__Cluster 2 Median Housing Values__
+__Cluster 4 Median Housing Values__
 
 ![title](Images/cluster2hv.png)
+
+__Cluster 4 Housing Price Plot__
+![title](Images/Cluster4.png)
+
+Performing a linear regression on Cluster 4 showed that the cities on the higher end of housing spectrum also have the highest coefficients (ex: Vail, Aspen, Breckenridge), but there are also some homes in mid-400k price range that also have a strong positive coefficient and may be optimal for a long term investor
+
+__Regression Coefficients__
+![title](Images/Cluster4winners.png)
 
 #### Additional Clusters and Housing Value Distribution below
 ##### Cluster 0
