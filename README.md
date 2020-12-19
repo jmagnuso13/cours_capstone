@@ -7,13 +7,13 @@ My datasets will leverage the [Foursquare Places API](https://developer.foursqua
 I will then cluster the data using K-Means Clustering to identify ideal markets for a potential investment into a vacation rental home.  The goal is to identify clusters of potentially undervalued markets from a housing investment perspective to identify cities with future growth potential for a housing investment.  
 
 
-### Data Source Examples 
+### Data Source Examples
 #### Zillow Home Values Index
 Zillow Home Value Index (ZHVI): A smoothed, seasonally adjusted measure of the typical home value and market changes across a given region and housing type. It reflects the typical value for homes in the 35th to 65th percentile range
 
 #### Foursquare Places API
 The Foursquare Places API will be used to identify Outdoor opportunities leveraging the 'Outdoors & Recreation' Category ID.  The output below shows some samples of how the foursquare app could be utilized.
-```json
+``json
 'meta': {'code': 200, 'requestId': '5fd44a674fe037099c612345'},
  'response': {'venues': [{'id': '51e30b94498e535deccfdea5',
     'name': 'Mt. Sneffels Trail Head',
@@ -37,8 +37,8 @@ The Foursquare Places API will be used to identify Outdoor opportunities leverag
     'referralId': 'v-1607748199',
     'hasPerk': False},
    {'id': '55ef161d49
-   ```
- 
+   ``
+
 ### Libraries Required
 Numpy
 Pandas
@@ -48,6 +48,3 @@ Folium
 Geopy
 
 #### Zillow csv file stored in csv folder.  magnuson_capstone.ipynb contains code to run
-
-
-
