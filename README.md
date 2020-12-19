@@ -48,3 +48,4 @@ Folium
 Geopy
 
 #### Zillow csv file stored in csv folder.  magnuson_capstone.ipynb contains code to run
+#### LinearRegression.ipynb contains code for addtl regression for cluster4
